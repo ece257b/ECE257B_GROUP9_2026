@@ -10,7 +10,7 @@ HOW TO RUN:
 
 CODE WORKFLOW:
 --> setup_network.py sets up the SUMO factory
---> Multiple iterations of the phy_downlink.py files exist. Current it runs the phy_downlink_5r_rl. This can be changed by changing the USE_RL variable in run_sim.py to FALSE
+--> Multiple iterations of the phy_downlink.py files exist. Currently it runs the phy_downlink_5r_rl. This can be changed by changing the USE_RL variable in run_sim.py to FALSE
 
 --> run_sim.py calls phy_downlink_5r_rl.py and setup_network.py and spawns the robots and does the main simulation sequence forever until the user stops in the SUMO GUI
 --> run.bat just runs run_sum.py
